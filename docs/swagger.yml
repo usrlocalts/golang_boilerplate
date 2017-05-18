@@ -1,0 +1,48 @@
+consumes:
+  - application/json
+info:
+  description: Go Lang Sample App
+  title: Go Lang Sample App
+  version: 0.0.1
+basePath: /
+produces:
+  - application/json
+schemes:
+  - http
+swagger: '2.0'
+paths:
+   '/ping':
+    get:
+      tags:
+        - GoLangSampleApp
+      responses:
+        '200':
+          description: successful
+   '/v1/users':
+    post:
+      tags:
+        - GoLangSampleApp
+      operationId: Login
+      parameters:
+        - name: body
+          in: body
+          schema:
+            $ref: '#/definitions/Post'
+      responses:
+        '204':
+          description: successful
+        '400':
+          description: bad request
+        '500':
+          description: Internal Server Error
+          
+            
+definitions:
+  Post:
+    type: object
+    properties:
+      topic:
+        type: string
+      body:
+        type: string
+

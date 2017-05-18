@@ -1,0 +1,24 @@
+package: golang_boilerplate
+import:
+- package: github.com/Sirupsen/logrus
+  version: ^0.10.0
+- package: github.com/gorilla/mux
+  version: ^1.1.0
+- package: github.com/spf13/viper
+- package: github.com/stretchr/testify
+  version: ^1.1.4
+- package: github.com/urfave/cli
+  version: ^1.18.1
+- package: github.com/jmoiron/sqlx
+- package: github.com/mattes/migrate
+- package: github.com/newrelic/go-agent
+  version: ^1.8.0
+- package: github.com/getsentry/raven-go
+  version: 3f7439d3e74d88e21d196ba20eb61a5a958bc118
+- package: github.com/evalphobia/logrus_sentry
+  version: ^0.2.10
+- package: github.com/gojek-engineering/goconfig
+- package: github.com/urfave/negroni
+  version: ^0.2.0
+- package: gopkg.in/DATA-DOG/go-sqlmock.v1
+  version: ^1.2.0

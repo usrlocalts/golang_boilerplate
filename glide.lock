@@ -1,0 +1,91 @@
+hash: 9bdd14bc0239ff1f5cd1ea65e9a417c6cb81c5cfb042103c8706adf48a4abe6b
+updated: 2017-05-11T13:30:26.711900125+05:30
+imports:
+- name: github.com/BurntSushi/toml
+  version: b26d9c308763d68093482582cea63d69be07a0f0
+- name: github.com/certifi/gocertifi
+  version: a9c833d2837d3b16888d55d5aafa9ffe9afb22b0
+- name: github.com/davecgh/go-spew
+  version: 6d212800a42e8ab5c146b8ace3490ee17e5225f9
+  subpackages:
+  - spew
+- name: github.com/evalphobia/logrus_sentry
+  version: 7c1b7faba7ed5772effc03db8e1faa8c90624660
+- name: github.com/getsentry/raven-go
+  version: 3f7439d3e74d88e21d196ba20eb61a5a958bc118
+- name: github.com/gojek-engineering/goconfig
+  version: 67563f485f4faa80533c2fca472d0776471f29ec
+- name: github.com/gorilla/context
+  version: 08b5f424b9271eedf6f9f0ce86cb9396ed337a42
+- name: github.com/gorilla/mux
+  version: 392c28fe23e1c45ddba891b0320b3b5df220beea
+- name: github.com/jmoiron/sqlx
+  version: 56b62f29e9936b8fc0db14ed01297f88ba518333
+  subpackages:
+  - reflectx
+- name: github.com/kr/pretty
+  version: cfb55aafdaf3ec08f0db22699ab822c50091b1c4
+- name: github.com/kr/text
+  version: 7cafcd837844e784b526369c9bce262804aebc60
+- name: github.com/lib/pq
+  version: 2704adc878c21e1329f46f6e56a1c387d788ff94
+  subpackages:
+  - oid
+- name: github.com/magiconair/properties
+  version: 51463bfca2576e06c62a8504b5c0f06d61312647
+  subpackages:
+  - assert
+- name: github.com/mattes/migrate
+  version: de494e4b98e924aff696990bc24629108bb8f76b
+  subpackages:
+  - driver
+  - driver/postgres
+  - file
+  - migrate
+  - migrate/direction
+  - pipe
+- name: github.com/mitchellh/mapstructure
+  version: cc8532a8e9a55ea36402aa21efdf403a60d34096
+- name: github.com/newrelic/go-agent
+  version: 29ec3cd1bb2f21d21d36da37dae52695cb2c3a17
+  subpackages:
+  - _integrations/nrgorilla/v1
+  - internal
+  - internal/jsonx
+  - internal/logger
+  - internal/sysinfo
+  - internal/utilization
+- name: github.com/pkg/errors
+  version: c605e284fe17294bda444b34710735b29d1a9d90
+- name: github.com/pmezard/go-difflib
+  version: d8ed2627bdf02c080bf22230dbb337003b7aba2d
+  subpackages:
+  - difflib
+- name: github.com/Sirupsen/logrus
+  version: ba1b36c82c5e05c4f912a88eab0dcd91a171688f
+- name: github.com/spf13/cast
+  version: acbeb36b902d72a7a4c18e8f3241075e7ab763e4
+- name: github.com/spf13/jwalterweatherman
+  version: 8f07c835e5cc1450c082fe3a439cf87b0cbb2d99
+- name: github.com/spf13/pflag
+  version: e57e3eeb33f795204c1ca35f56c44f83227c6e66
+- name: github.com/spf13/viper
+  version: db7ff930a189b98d602179d9001d33345f42b8c7
+- name: github.com/stretchr/testify
+  version: 69483b4bd14f5845b5a1e55bca19e954e827f1d0
+  subpackages:
+  - assert
+  - require
+- name: github.com/urfave/cli
+  version: 0bdeddeeb0f650497d603c4ad7b20cfe685682f6
+- name: github.com/urfave/negroni
+  version: fde5e16d32adc7ad637e9cd9ad21d4ebc6192535
+- name: golang.org/x/sys
+  version: 9ccfe848b9db8435a24c424abbc07a921adf1df5
+  subpackages:
+  - unix
+- name: gopkg.in/DATA-DOG/go-sqlmock.v1
+  version: b983233bc0bbea4dc6e8ec8c8c923d935765ffec
+- name: gopkg.in/yaml.v2
+  version: cd8b52f8269e0feb286dfeef29f8fe4d5b397e0b
+testImports: []

@@ -1,0 +1,19 @@
+LOG_LEVEL: "debug"
+APP_PORT: 3000
+
+db_driver: "postgres"
+db_url: "postgres://boilerplate@localhost:5432/golang_boilerplate_dev?sslmode=disable"
+db_max_conn: 5
+db_slave_url: ""
+db_idle_conn: "5"
+db_conn_max_lifetime: "5"
+
+new_relic_enabled: "false"
+new_relic_app_name: "Golang Boilerplate Gateway"
+new_relic_license_key: "dummydummydummydummydummydummydummydummy"
+
+sentry_enabled: "false"
+sentry_dsn: "dummy"
+
+docs_path: "./docs"
+
