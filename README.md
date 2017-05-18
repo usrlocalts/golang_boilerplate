@@ -24,7 +24,7 @@ Migrations can be found in `migrations` directory. This uses `github.com/mattes/
 
 A Migration can be also rolled back by `./golang_boilerplate rollback`
 
-##Project Structure
+## Project Structure
 - This project uses a feature based package management system. So, all the components related to posts creation viz handlers, services, request, response, repositories will be found in a single package.
 - Appcontext, Logger, DB are initialized in main.go, and injected to different components.
 - This project doesn't use any framework for dependency injection
@@ -80,7 +80,7 @@ This task is idempotent
 
 Other API details can be found in `api_blueprints` directory
 
-#Tasks Glossary
+### Tasks Glossary
 `make setup` - Sets up the project
 `make test` - Recreates Test Database, Runs Migration against the Test DB, Runs Test Case
 `make compile` - Builds the Codebase
